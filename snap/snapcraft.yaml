@@ -1,0 +1,15 @@
+
+  name: wifi-passwords-gen
+  version: '2.1'
+  summary: Password Generator based on BSSID
+  description: |
+    Wifi Passowrd Generator based on the BSSID info.
+
+  grade: stable
+  confinement: strict
+
+  parts:
+    my-part:
+      # See 'snapcraft plugins'
+      plugin: nil
+  
